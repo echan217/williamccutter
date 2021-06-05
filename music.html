@@ -1,0 +1,44 @@
+---
+layout: default
+title: Music
+---
+{% for section in site.data.music %}
+    <div class="music_section">
+        <div class="music_section_title">{{ section.title }}</div>
+        {% for subsection in section.subsections %} 
+            <div class="music_subsection">
+                <div class="music_subsection_title">{{ subsection.title }}</div>
+                {% for item in subsection.items %} 
+                    <div class="music_item">
+                        {% if item.url %}
+                            {% if item.url contains "http" %}
+                                {% assign url = item.url %}
+                            {% else %}
+                                {% assign url = item.url | prepend: site.baseurl %}
+                            {% endif %}
+                            <a href="{{ url }}">
+                        {% endif %}
+                        <span class="music_item_title">{{ item.title }}</span>
+                        {% if item.url %}</a>{% endif %} 
+
+                        <span class="music_item_note">&nbsp;&nbsp;{{ item.note }}</span>
+
+                        {% if item.publisher %}
+                            <br>
+                            {% if item.code %}<span class="music_item_code">{{ item.code }}, </span>{% endif %} 
+                            <span class="music_item_publisher">{{ item.publisher }}</span>
+                        {% endif %} 
+
+                        {% if item.collection %} 
+                            <ol class="music_item_collection">
+                            {% for subitem in item.collection %} 
+                                <li>{{ subitem }}</li>
+                            {% endfor %} 
+                            </ol>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+{% endfor %}

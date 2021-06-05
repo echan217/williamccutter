@@ -1,0 +1,179 @@
+$text-color: #dfdfdf;
+$hr-color: #6e6e6e;
+
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #111;
+    color: $text-color;
+    font-size: 13px;
+}
+h1, h2, h3, h4, h5 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 200;
+    margin:0px;
+    padding:0px;
+    color: white;
+}
+h1 {
+    font-size: 3em;
+}
+.title {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin: 10px 0px;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+#titleright {
+    float: left;
+    border-left:solid 1px #888;
+    padding: 0px 20px;
+    padding-bottom:2px;
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    letter-spacing: 3px;
+    color: #888;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#main_contents {
+    border-top: solid 1px #666;
+    margin-top: 20px;
+}
+.box {
+    max-width: 1100px;
+    min-width: 900px;
+    margin: 0px auto;
+}
+.green {
+    color: #6FBF4D;
+}
+#top {
+    height: 80px;
+}
+#footer_box{
+    padding: 10px 0px;
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    color: $text-color;
+    font-size: 12px;
+}
+.contentbox {
+    color: $text-color;
+    background-color: #292929;
+    min-height: 400px;
+    padding: 20px 40px;
+}
+hr {
+    width: 100%;
+    height: 0px;
+    border: 0px;
+    margin-top: 3px;
+    border-top: 1px solid $hr-color;
+}
+hr.dottedhr {
+    border-top: 1px dotted $hr-color;
+    width: 80%
+}
+
+#menu {
+    font-family: "Text Me One", sans-serif;
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: $text-color;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    height: 100%;
+    line-height: 80px;
+    text-align: right;
+    word-spacing: 4px;
+}
+#menu a {
+    text-decoration: none;
+    border: 0px;
+    color: $text-color;
+}
+#menu a:hover {
+    color: #6FBF4D;
+}
+a {
+    text-decoration: none;
+    color: $text-color;
+    border-bottom: dotted 1px #6FBF4D;
+}
+a:hover {
+    color: #6FBF4D;
+}
+#toppic {
+    width: 100%;
+    height: 170px;
+    background-color: black;
+}
+#bio_pic {
+    float: left;
+    border: solid 1px black;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.gallery a{
+    border: 0px;
+}
+.gallery-item {
+    margin-bottom: 50px;
+}
+.gallery-caption {
+    font-size: 10px;
+    width: 75%;
+    margin: 0px auto !important;
+}
+p {
+    line-height: 160%;
+}
+
+.music_section {
+    margin-bottom: 30px;
+}
+.music_section_title {
+    font-size: 1.6em;
+}
+
+.music_subsection {
+    margin: 1em 0;
+    margin-left: 2em;
+}
+.music_subsection_title {
+    font-size: 1.2em;
+}
+
+.music_item {
+    margin: 1.3em 0;
+    margin-left: 2em;
+}
+
+.music_item_title {
+    font-weight: bold;
+}
+
+.music_item_note {
+    font-size: 80%;
+    font-style: italic;
+    color: #ccc;
+}
+
+.music_item_publisher {
+    font-size: 80%;
+}
+
+.music_item_code {
+    font-size: 80%;
+}
+
+.music_item_collection {
+    margin: 0;
+    margin-top: 5px;
+}

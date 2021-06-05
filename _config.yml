@@ -1,0 +1,10 @@
+# Site settings
+title: William Cutter
+email: bill@williamccutter.com
+description: >
+  This is the website of the composer, arranger, and educator
+  Dr. William Cutter.
+baseurl: ""
+url: "http://echan217.github.io"
+#twitter_username: jekyllrb
+github_username:  echan217
