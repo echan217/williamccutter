@@ -2,3 +2,42 @@
 layout: default
 title: Media
 ---
+<div class="articles">
+    <div class="media_section_title">Articles</div>
+    {% for article in site.data.media.articles %}
+        <div class="article">
+            <div class="article_title">
+                {% if article.url %}<a target="_blank" href="{{ article.url }}">{% endif %}
+                {{ article.title }}
+                {% if article.url %}</a>{% endif %}
+            </div>
+            {% if article.image %}
+                <div class="article_image">
+                    <a target="_blank" href="{{ article.image }}"><img src="{{ article.image }}"></a>
+                </div>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+
+<div class="videos">
+    <div class="media_section_title">Videos</div>
+    {% for video in site.data.media.videos %}
+        <div class="video">
+            <div class="video_title">{{ video.title }}</div>
+            <div class="video_iframe">
+                <iframe src="{{ video.url }}" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+<div class="images">
+    <div class="media_section_title">Images</div>
+    {% for image in site.data.media.images %}
+        <div class="image">
+            <a target="_blank" href="{{ image.url }}"><img src="{{ image.url }}"></a>
+            <div class="caption">{{ image.caption}}</div>
+        </div>
+    {% endfor %}
+</div>

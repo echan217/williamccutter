@@ -103,7 +103,7 @@ hr.dottedhr {
 a {
     text-decoration: none;
     color: $text-color;
-    border-bottom: dotted 1px #6FBF4D;
+    border-bottom: solid 1px #6FBF4D;
 }
 a:hover {
     color: #6FBF4D;
@@ -176,4 +176,54 @@ p {
 .music_item_collection {
     margin: 0;
     margin-top: 5px;
+}
+
+.media_section_title {
+    font-size: 1.6em;
+    margin: 1em 0;
+}
+
+.article, .video{
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
+.article_image img{
+    max-height: 30em;
+    margin: 1em;
+}
+
+.article_image a, .image a {
+    border: 0;
+}
+
+.video {
+    margin-bottom: 4em;
+}
+
+.video_title {
+    margin: .5em 0;
+}
+
+.video_iframe {
+    margin-left: 2em;
+}
+
+.image {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 2em;
+    width: 20em;
+}
+
+.image img {
+    max-height: 15em;
+    max-width: 15em;
+    border: solid 2px #CCC;
+}
+
+.image .caption {
+    font-size: 80%;
+    font-style: italic;
+    color: #ccc;
 }

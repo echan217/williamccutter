@@ -1,0 +1,37 @@
+articles:
+  - title: "Tovey and the BSO deliver a bracing Brahms ‘Requiem’ – Music – The Boston Globe"
+    url: "/assets/documents/globe_brahms.pdf"
+  - title: "Tovey, Terfel and BSO deliver a deeply moving Brahms Requiem"
+    url: "/assets/documents/classicalreview_brahms.pdf"
+    image: "/assets/images/brahms.jpg"
+
+videos:
+  - title: "Brahms Requiem Rehearsal (Tanglewood Festival Chorus)"
+    url: "https://www.youtube.com/embed/-q-QMLD8b1k"
+  - title: "MIT150 Convocation – Benediction: The Reason Why The World (Peter Child) with the MIT Chamber Chorus and Concert Choir"
+    url: "https://www.youtube.com/embed/bxkJb-J_o8c"
+  - title: "Inaugural Concert – Elegischer Gesang, Op. 118 (Beethoven) with the MIT Concert Choir"
+    url: "https://www.youtube.com/embed/2y2ycUfJ0Uk"
+  - title: "Little Lamb (William Cutter) performed by the Taichung Artist Chamber Choir"
+    url: "https://www.youtube.com/embed/sr1yDFtPGWA"
+  - title: "Boston Conservatory Tango with the Boston Conservatory Chorale"
+    url: "https://www.youtube.com/embed/zKN5IFgpZps"
+
+images:
+  - url: "/assets/images/conducting_bw.jpg"
+  - url: "/assets/images/conducting_fist.jpg"
+  - url: "/assets/images/conducting_point.jpg"
+  - url: "/assets/images/amahl1.jpg"
+    caption: Production of Menotti’s “Amahl and the Night Visitors” at MIT
+  - url: "/assets/images/amahl2.jpg"
+  - url: "/assets/images/amahl_poster.jpg"
+  - url: "/assets/images/boco.jpg"
+    caption: "Faculty and Staff of the Boston Conservatory Vocal/Choral Intensive"
+  - url: "/assets/images/counterpoint.jpg"
+    caption: "Teaching counterpoint"
+  - url: "/assets/images/tredici_copland.jpg"
+    caption: "My principal composition teacher David Del Tredici with one of his mentors…Aaron Copland"
+  - url: "/assets/images/taylor.jpg"
+    caption: "Rehearsal with James Taylor at Tanglewood in Ozawa Hall"
+  - url: "/assets/images/brahms_sing.jpg"
+    caption: A Brahms Requiem “Sing” in response to the bombings at the Boston Marathon
